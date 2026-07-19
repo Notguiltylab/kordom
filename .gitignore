@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+dist-ssr/
+*.local
+
+# vite
+.vite/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local/session-specific settings (machine-specific, not for sharing)
+.claude/settings.local.json
+
+# source business-plan PDF contains personal/financial details — not included by default
+이행전략보고서_양성규-코르돔.pdf
